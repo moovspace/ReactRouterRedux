@@ -1,0 +1,39 @@
+*{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  color: #09f;
+  margin: 30px;
+}
+
+.link {
+  color: #09f;
+  padding: 10px 15px;
+  text-decoration: none;
+  outline: none
+}
+
+.link-active {
+  color: #f90;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
